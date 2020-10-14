@@ -107,7 +107,10 @@ def lb():
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 def tol():
     '''this function tell us about the tool used in the program '''
     tl = Tk()
@@ -122,11 +125,9 @@ def tol():
 
 '''this function contains the source code'''
 def src_code():
-    sc = Tk()
+    sc = tk.Tk()
     sc.title('Source code')
-    scrollbar = Scrollbar(sc)
-    scrollbar.pack(side = RIGHT , fill = Y)
-    sorce = Message(msg,text = '''#This program is developed by awanish kumar 
+    tk.Message(sc,text = '''#This program is developed by awanish kumar 
 #This program contains the different function for different widget and doc string to 
 #get the proper overview of the each function
 #importing the tkinter
@@ -241,8 +242,7 @@ infomenu.add_command(label="tools used", command=donothing)
 infomenu.add_command(label="About developer", command=donothing)
 menubar.add_cascade(label="Info desk", menu=infomenu)
 root.config(menu=menubar)
-root.mainloop()''', font = "comicsansms 12 bold")
-    sorce.pack(side = LEFT , fill = BOTH)
+root.mainloop()''', font = "comicsansms 7 bold").pack()
     sc.mainloop()
 
 
@@ -256,6 +256,9 @@ padx = 113,pady = 98,font = "comicsansms 20 bold", borderwidth = 5, relief = SUN
     ab.mainloop()
     
 
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
 ''' this part of the code contains the menu operations '''
 root = Tk()
@@ -284,7 +287,11 @@ menubar.add_cascade(label="Widgets", menu=widgetmenu)
 
 sourcemenu = Menu(menubar, tearoff=0)
 <<<<<<< HEAD
+<<<<<<< HEAD
 sourcemenu.add_command(label="Source code", command=donothing)
+=======
+sourcemenu.add_command(label="Source code", command=src_code)
+>>>>>>> master
 =======
 sourcemenu.add_command(label="Source code", command=src_code)
 >>>>>>> master
@@ -293,8 +300,13 @@ menubar.add_cascade(label="Source", menu=sourcemenu)
 
 infomenu = Menu(menubar, tearoff=0)
 <<<<<<< HEAD
+<<<<<<< HEAD
 infomenu.add_command(label="tools used", command=donothing)
 infomenu.add_command(label="About developer", command=donothing)
+=======
+infomenu.add_command(label="tools used", command=tol)
+infomenu.add_command(label="About developer", command=about_dev)
+>>>>>>> master
 =======
 infomenu.add_command(label="tools used", command=tol)
 infomenu.add_command(label="About developer", command=about_dev)
