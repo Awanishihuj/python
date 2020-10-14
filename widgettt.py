@@ -122,8 +122,6 @@ def tol():
 def src_code():
     sc = Tk()
     sc.title('Source code')
-    scrollbar = Scrollbar(sc)
-    scrollbar.pack(side = RIGHT , fill = Y)
     sorce = Message(msg,text = '''#This program is developed by awanish kumar 
 #This program contains the different function for different widget and doc string to 
 #get the proper overview of the each function
@@ -240,7 +238,7 @@ infomenu.add_command(label="About developer", command=donothing)
 menubar.add_cascade(label="Info desk", menu=infomenu)
 root.config(menu=menubar)
 root.mainloop()''', font = "comicsansms 12 bold")
-    sorce.pack(side = LEFT , fill = BOTH)
+    sorce.pack()
     sc.mainloop()
 
 
