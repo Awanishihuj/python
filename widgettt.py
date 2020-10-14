@@ -106,7 +106,6 @@ def lb():
     lisbx.mainloop()
 
 
-<<<<<<< HEAD
 def tol():
     '''this function tell us about the tool used in the program '''
     tl = Tk()
@@ -255,8 +254,6 @@ padx = 113,pady = 98,font = "comicsansms 20 bold", borderwidth = 5, relief = SUN
     ab.mainloop()
     
 
-=======
->>>>>>> 590608b9f032b45a4cb475487e51d00d66943d35
 ''' this part of the code contains the menu operations '''
 root = Tk()
 root.geometry("400x400")
