@@ -122,7 +122,7 @@ def tol():
 def src_code():
     sc = tk.Tk()
     sc.title('Source code')
-    tk.Message(msg,text = '''#This program is developed by awanish kumar 
+    tk.Message(sc,text = '''#This program is developed by awanish kumar 
 #This program contains the different function for different widget and doc string to 
 #get the proper overview of the each function
 #importing the tkinter
@@ -237,7 +237,7 @@ infomenu.add_command(label="tools used", command=donothing)
 infomenu.add_command(label="About developer", command=donothing)
 menubar.add_cascade(label="Info desk", menu=infomenu)
 root.config(menu=menubar)
-root.mainloop()''', font = "comicsansms 12 bold").pack()
+root.mainloop()''', font = "comicsansms 7 bold").pack()
     sc.mainloop()
 
 
