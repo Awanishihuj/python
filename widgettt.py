@@ -110,11 +110,11 @@ def tol():
     '''this function tell us about the tool used in the program '''
     tl = Tk()
     tl.title('Tools i used')
-    tol = Label(text = '''Tools that are use is python programing \n
-    module which i used is TKinter\n
-    and some basic function of Tkinter''', bg = 'black',fg = "red",
+    tol = Label(tl,text = '''Tools that are use is python programing:- \n
+    1:module which i used is TKinter\n
+    2:basic function of Tkinter''', bg = 'black',fg = "red",
     padx = 113,pady = 98,font = "comicsansms 20 bold", borderwidth = 10, relief = RAISED)
-    tol.pack(fill = X,padx = 34,pady = 34)
+    tol.pack(fill = BOTH,padx = 34,pady = 34)
     tl.mainloop()
 
 
@@ -243,21 +243,21 @@ root.mainloop()''', font = "comicsansms 7 bold").pack()
 
 def about_dev():
     ab = Tk()
-    dev = Label(text = '''This program is developed by Awanish kumar \n
+    ab.title('about dseveloper')
+    dev = Label(ab,text = '''This program is developed by Awanish kumar \n
     Under the guidence of Sb Dandin sir \n
-    hope you all liked my work''', bg = 'black',fg = "yellow",
-padx = 113,pady = 98,font = "comicsansms 20 bold", borderwidth = 5, relief = SUNKEN)
-    dev.pack(fill = X,padx = 34,pady = 34)
+    hope you all liked my work''', bg = 'black',fg = "red",
+    padx = 113,pady = 98,font = "comicsansms 20 bold", borderwidth = 15, relief = SUNKEN)
+    dev.pack(fill = BOTH,padx = 34,pady = 34)
     ab.mainloop()
     
 
 ''' this part of the code contains the menu operations '''
 root = Tk()
-root.geometry("400x400")
-bdy = Label(text = '''This is The main window. \n to see all the
- widget try find in Menu bar \n \n Though menu is also comes under 
+root.geometry("600x600")
+bdy = Label(text = '''This is The main window. \n to see all the widget try find in Menu bar \n \n Though menu is also comes under 
 the widget of tkinter \n To see the credit please do check the about
- section under the help menu''', bg = 'black',fg = "yellow",
+ section under the Info desk''', bg = 'black',fg = "yellow",
 padx = 113,pady = 98,font = "comicsansms 20 bold", borderwidth = 5, relief = SUNKEN)
 bdy.pack(fill = X,padx = 34,pady = 34)
 menubar = Menu(root)
