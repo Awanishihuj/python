@@ -281,15 +281,12 @@ menubar.add_cascade(label="Widgets", menu=widgetmenu)
 
 sourcemenu = Menu(menubar, tearoff=0)
 sourcemenu.add_command(label="Source code", command=src_code)
-sourcemenu.add_command(label="Source code", command=donothing)
 menubar.add_cascade(label="Source", menu=sourcemenu)
 
 
 infomenu = Menu(menubar, tearoff=0)
 infomenu.add_command(label="tools used", command=tol)
 infomenu.add_command(label="About developer", command=about_dev)
-infomenu.add_command(label="tools used", command=donothing)
-infomenu.add_command(label="About developer", command=donothing)
 menubar.add_cascade(label="Info desk", menu=infomenu)
 
 root.config(menu=menubar)
