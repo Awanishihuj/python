@@ -106,6 +106,7 @@ def lb():
     lisbx.mainloop()
 
 
+<<<<<<< HEAD
 def tol():
     '''this function tell us about the tool used in the program '''
     tl = Tk()
@@ -254,6 +255,8 @@ padx = 113,pady = 98,font = "comicsansms 20 bold", borderwidth = 5, relief = SUN
     ab.mainloop()
     
 
+=======
+>>>>>>> 590608b9f032b45a4cb475487e51d00d66943d35
 ''' this part of the code contains the menu operations '''
 root = Tk()
 root.geometry("400x400")
@@ -280,13 +283,22 @@ menubar.add_cascade(label="Widgets", menu=widgetmenu)
 
 
 sourcemenu = Menu(menubar, tearoff=0)
+<<<<<<< HEAD
 sourcemenu.add_command(label="Source code", command=src_code)
+=======
+sourcemenu.add_command(label="Source code", command=donothing)
+>>>>>>> 590608b9f032b45a4cb475487e51d00d66943d35
 menubar.add_cascade(label="Source", menu=sourcemenu)
 
 
 infomenu = Menu(menubar, tearoff=0)
+<<<<<<< HEAD
 infomenu.add_command(label="tools used", command=tol)
 infomenu.add_command(label="About developer", command=about_dev)
+=======
+infomenu.add_command(label="tools used", command=donothing)
+infomenu.add_command(label="About developer", command=donothing)
+>>>>>>> 590608b9f032b45a4cb475487e51d00d66943d35
 menubar.add_cascade(label="Info desk", menu=infomenu)
 
 root.config(menu=menubar)
