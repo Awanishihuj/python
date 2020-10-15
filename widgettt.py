@@ -263,6 +263,7 @@ def about_dev():
 >>>>>>> master
 ''' this part of the code contains the menu operations '''
 root = Tk()
+root.title('Main window for widget handel')
 root.geometry("600x600")
 bdy = Label(text = '''This is The main window. \n to see all the widget try find in Menu bar \n \n Though menu is also comes under 
 the widget of tkinter \n To see the credit please do check the about
